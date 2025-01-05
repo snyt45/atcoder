@@ -22,6 +22,10 @@ run:
 	./shell/run.sh
 .PHONY: run
 
+watch:
+	./shell/watch.sh
+.PHONY: watch
+
 test:
 	./shell/test.sh
 .PHONY: test
