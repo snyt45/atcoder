@@ -14,6 +14,10 @@ dl:
 	./shell/download.sh
 .PHONY: dl
 
+dlu:
+	./shell/downloadurl.sh
+.PHONY: dlu
+
 sw:
 	./shell/switch.sh $(n)
 .PHONY: sw
