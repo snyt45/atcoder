@@ -10,3 +10,5 @@ sw:
 	./shell/switch.sh $(n)
 run:
 	./shell/run.sh
+test:
+	./shell/test.sh
