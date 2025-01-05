@@ -29,3 +29,7 @@ test:
 submit:
 	./shell/submit.sh
 .PHONY: submit
+
+move:
+	./shell/movefile.sh
+.PHONY: move
