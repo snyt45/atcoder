@@ -8,3 +8,5 @@ dl:
 	./shell/download.sh
 sw:
 	./shell/switch.sh $(n)
+run:
+	./shell/run.sh
