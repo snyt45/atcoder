@@ -25,3 +25,7 @@ run:
 test:
 	./shell/test.sh
 .PHONY: test
+
+submit:
+	./shell/submit.sh
+.PHONY: submit
