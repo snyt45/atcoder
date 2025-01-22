@@ -14,6 +14,9 @@ $ make dl
 # URLを指定して問題をダウンロードする
 $ make dlu
 
+# main.goをテンプレートからコピー
+$ make init
+
 # 入力を切り替える
 $ make sw n=2
 
