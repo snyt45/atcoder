@@ -33,5 +33,5 @@ $ make test
 # make submit
 
 # コンテスト名を指定してファイルを移動
-$ make 
+$ make move
 ```
