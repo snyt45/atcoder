@@ -20,6 +20,6 @@ func init() {
 		if err != nil {
 			panic(err)
 		}
-		sc = bufio.NewScanner(strings.NewReader(strings.Replace(string(b), " ", "\n", -1)))
+		sc = bufio.NewScanner(strings.NewReader(string(b)))
 	}
 }
